@@ -12,7 +12,7 @@ class Header extends React.Component {
 			headerNav = (
 				<ul id="nav-mobile" className="right hide-on-med-and-down">
 		      <li>
-		       <Link to="/login">Login</Link>
+		       <Link to="/signin">Login</Link>
 		      </li>
 		      <li>
 		      	<Link to="/signup">Signup</Link>

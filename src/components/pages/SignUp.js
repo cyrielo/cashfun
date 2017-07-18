@@ -9,7 +9,7 @@ class SignUp extends React.Component {
 			<div className="container">
 				<div className="row auth-row">
 
-					<div className="col s12 m6 offset-m3 l5 offset-l3" id="auth-page">
+					<div className="col s12 m6 offset-m3 l5 offset-l3 white" id="auth-page">
 						<div id="auth-container">
 							<div id="auth-brand">
 								<div id="brand-details">
