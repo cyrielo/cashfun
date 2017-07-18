@@ -31,7 +31,7 @@ class Form extends React.Component {
 					</div>
 
 					<div className="row">
-						<div className="col s8 offset-s4">
+						<div className="col s12" id='auth-button'>
 							<Button 
 						classes="waves-effect waves-light btn teal" 
 						type="submit"

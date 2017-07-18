@@ -1,0 +1,98 @@
+@import 'imports/colors';
+
+body {
+
+	.auth-row{
+		margin-top: 50px;
+		
+		#auth-footer {
+			background: red;
+			border-radius: 5px;
+		}
+	}
+
+	#auth-page {
+		background: #fff;
+		border-radius: 5px;
+
+		#auth-container {
+			margin: 40px;
+			padding: 20px 0;
+
+			#brand-details {
+				float: left;
+				margin-top: 8px;
+
+				#brand-color {
+					background: $primary-color;
+					height: 35px;
+					width: 35px;
+					display: inline-block;
+					border-radius: 100%;
+
+					#initials {
+						color: #fff;
+						text-align: center;
+						margin-top: 5px;
+						font-size: 17px;
+					}
+				}
+
+				#site-name {
+			    color: #212121;
+			    display: inline-block;
+			    font-size: 17px;
+			    margin: 0 0 0 5px;
+				}
+			}
+
+			#connections {
+				text-align: right;
+
+				img {
+					border-radius: 100%;
+					border: 2px solid #fff;
+					width: 45px;
+					position: relative;
+					box-shadow: 0 0 1px 1px rgb(200, 200, 200);
+				}
+
+				#first-image {
+					margin-right: -15px;
+					z-index: 1;
+				}
+
+				#second-image {
+					z-index: 2;
+				}
+
+				#third-image {
+					margin-left: -15px;
+					z-index: 1;
+				}
+
+			}
+		}
+	}
+
+	#form-container {
+		#form-intro {
+			float: left;
+			margin: 20px 0 25px 0; 
+			h2 {
+				font-size: 18px;
+				line-height: 10%;
+				font-weight: bold;
+			}
+
+			p {
+				line-height: 110%;
+				font-size: 13px;
+			}
+		}
+	}
+
+	#auth-button {
+		text-align: center;
+	}
+}

@@ -8,7 +8,7 @@ class Login extends React.Component {
 			<div className="container">
 				<div className="row auth-row">
 
-					<div className="col m6 offset-m3 l5 offset-l3" id="auth-page">
+					<div className="col s12 m6 offset-m3 l6 offset-l3" id="auth-page">
 						<div id="auth-container">
 							<div id="auth-brand">
 								<div id="brand-details">
@@ -24,7 +24,7 @@ class Login extends React.Component {
 									<img id="third-image" src="/dist/img/img2.jpg" />
 								</div>
 							</div>
-							<Form type="signin" />
+							<Form type='signin' />
 						</div>
 					</div>
 
