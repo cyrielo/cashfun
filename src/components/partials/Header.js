@@ -39,7 +39,7 @@ class Header extends React.Component {
 
 		return (
 			 <nav>
-		    <div className="nav-wrapper ">
+		    <div className="nav-wrapper white grey-text text-darken-2">
 		      <a href="#" className="brand-logo">CashFun</a>
 		      { headerNav }
 		    </div>
