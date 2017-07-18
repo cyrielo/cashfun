@@ -44,29 +44,43 @@ class Form extends React.Component {
 		} 
 		else {
 			dynamicForm = (
-			<div>
-				<div className="row">
-			    <div className="input-field col s6">
-			      <input id="email" type="email" className="validate"/>
-			      <label className="active" htmlFor="first_name2">Email</label>
-			    </div>
-				</div>
+				<div id="form-container">
+					<div id="form-intro">
+						<h2>Sign up | Start cashing out real dough!</h2>
+						
+					</div>
 
-				<div className="row">
-					<div className="input-field col s6">
-			      <input id="username" type="text" className="validate"/>
-			      <label className="active" htmlFor="username">Username</label>
-			    </div>
-				</div>
+					<div className="row">
+				    <div className="input-field col s12">
+				      <input placeholder=" " id="email" type="email" className="validate"/>
+				      <label className="active" htmlFor="email">Email</label>
+				    </div>
+					</div>
 
-				<div className="row">
-			    <div className="input-field col s6">
-			      <input id="password" type="password" className="validate"/>
-			      <label className="active" htmlFor="password">Choose password</label>
-			    </div>
-				</div>
+					<div className="row">
+				    <div className="input-field col s12">
+				      <input placeholder=" " id="username" type="text" className="validate"/>
+				      <label className="active" htmlFor="username">Username</label>
+				    </div>
+					</div>
 
-  		</div>
+					<div className="row">
+				    <div className="input-field col s12">
+				      <input placeholder=" "  id="password" type="password" className="validate"/>
+				      <label className="active" htmlFor="password">Choose password</label>
+				    </div>
+					</div>
+
+					<div className="row">
+						<div className="col s12" id='auth-button'>
+							<Button 
+						classes="waves-effect waves-light btn teal" 
+						type="submit"
+						icon="add"
+						text="Sign up"/>
+						</div>
+					</div>
+				</div>
 			);
 		}
 
