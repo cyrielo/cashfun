@@ -1,0 +1,15 @@
+{
+  "name": "CashFun",
+  "description": "A social money making platform",
+  "main": "index.js",
+  "authors": [
+    "Cyril Ologho"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "materialize": "^0.99.0"
+  }
+}
